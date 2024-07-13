@@ -1,0 +1,14 @@
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  port: 8761
+  
+# WE SET THIS AS FALSE, JISSE KI YE KHUD AS A CLIENT REGISTER NA HO
+# Q KI BY DEFAULT YE DONO PROPERTY TRUE HOTI Hain
+#    client.register-with-eureka: false
+#    fetch-registry: false
